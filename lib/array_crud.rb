@@ -6,50 +6,50 @@ end
 
 def create_an_array
 
-  mycolors = ["gold", "silver", "violet", "gray"]
+  array = ["wow", "I", "am", "really", "learning"]
 end	
 
 
 def add_element_to_end_of_array(array, element)	
 
-  mycolors << element
-  puts mycolors.inspect
+  array << element
+  puts array.inspect
 end	
 
 
 def add_element_to_start_of_array(array, element)	
 
-  mycolors.unshift(element)
-  puts mycolors.inspect
+  array.unshift(element)
+  puts array.inspect
 end	
 
 
 def remove_element_from_end_of_array(array)	
 
-  mycolors.pop
-  puts mycolors.inspect
+  array.pop
+  puts array.inspect
 end
 
 
 def remove_element_from_start_of_array(array)	
-  mycolors.shift
-  puts mycolors.inspect
+  array.shift
+  puts array.inspect
 end	
 
 
 def retrieve_element_from_index(array, index_number)	
 
-  mycolors[2]
+  array[2]
 end	
 
 
 def retrieve_first_element_from_array(array)	
 
-  mycolors[0]
+  array[0]
 end	
 
 
 def retrieve_last_element_from_array(array)	d
 
-  mycolors[-1]
+  array[-1]
 end	
