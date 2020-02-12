@@ -6,7 +6,7 @@ end
 
 def create_an_array
 
-  array = ["wow", "I", "am", "really", "learning"]
+  array = ["wow", "I", "am", "really"]
 end	
 
 
