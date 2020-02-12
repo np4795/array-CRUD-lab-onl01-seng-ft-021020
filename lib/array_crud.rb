@@ -12,14 +12,14 @@ end
 
 def add_element_to_end_of_array(array, element)	
 
-  mycolors.push "white"
+  mycolors.push white
   puts mycolors.inspect
 end	
 
 
 def add_element_to_start_of_array(array, element)	
 
-  mycolors.unshift = "purple"
+  mycolors.unshift = purple
   puts mycolors.inspect
 end	
 
