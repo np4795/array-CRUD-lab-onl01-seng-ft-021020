@@ -51,5 +51,5 @@ end
 
 def retrieve_last_element_from_array(array)	d
 
-  array[4]
+  array.last
 end	
