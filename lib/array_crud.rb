@@ -12,7 +12,7 @@ end
 
 def add_element_to_end_of_array(array, element)	
 
-  mycolors.push white
+  mycolors << element
   puts mycolors.inspect
 end	
 
