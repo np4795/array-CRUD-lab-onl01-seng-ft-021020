@@ -13,26 +13,26 @@ end
 def add_element_to_end_of_array(array, element)	
 
   array << element
-  puts array.inspect
+  
 end	
 
 
 def add_element_to_start_of_array(array, element)	
 
   array.unshift(element)
-  puts array.inspect
+ 
 end	
 
 def remove_element_from_end_of_array(array)	
 
   array.pop
-  puts array.inspect
+  
 end
 
 
 def remove_element_from_start_of_array(array)	
   array.shift
-  puts array.inspect
+  
 end	
 
 
