@@ -19,7 +19,7 @@ end
 
 def add_element_to_start_of_array(array, element)	
 
-  mycolors.unshift = purple
+  mycolors.unshift(element)
   puts mycolors.inspect
 end	
 
